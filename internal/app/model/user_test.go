@@ -3,7 +3,7 @@ package model_test
 import (
 	"testing"
 
-	"github.com/ktroitskiy/http-rest-api/internal/app/model"
+	"github.com/ktroitskiy/recumbent-stone/internal/app/model"
 	"github.com/stretchr/testify/assert"
 )
 

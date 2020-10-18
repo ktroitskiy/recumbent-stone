@@ -1,6 +1,6 @@
-package store
+package sqlstore
 
-import "github.com/ktroitskiy/http-rest-api/internal/app/model"
+import "github.com/ktroitskiy/recumbent-stone/internal/app/model"
 
 // UserRepository ...
 type UserRepository struct {

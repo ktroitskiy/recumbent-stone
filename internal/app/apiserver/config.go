@@ -1,6 +1,6 @@
 package apiserver
 
-import "github.com/ktroitskiy/http-rest-api/internal/store"
+import "github.com/ktroitskiy/recumbent-stone/internal/store"
 
 // Config ...
 type Config struct {

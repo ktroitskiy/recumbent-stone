@@ -1,4 +1,4 @@
-module github.com/ktroitskiy/http-rest-api
+module github.com/ktroitskiy/recumbent-stone
 
 go 1.14
 
