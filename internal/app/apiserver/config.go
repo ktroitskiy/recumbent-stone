@@ -1,12 +1,10 @@
 package apiserver
 
-import "github.com/ktroitskiy/recumbent-stone/internal/store"
-
 // Config ...
 type Config struct {
 	BindAddress string `toml:"bind_address"`
 	LogLevel    string `toml:"log_level"`
-	Store       *store.Config
+	DatabaseURL string `toml:"database_url"`
 }
 
 // NewConfig ...
@@ -14,6 +12,5 @@ func NewConfig() *Config {
 	return &Config{
 		BindAddress: ":8080",
 		LogLevel:    "debug",
-		Store:       store.NewConfig(),
 	}
 }

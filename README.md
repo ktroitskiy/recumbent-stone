@@ -1,5 +1,7 @@
 # Migrations
 
+https://github.com/golang-migrate/migrate
+
 ## Create migration
 
 ```migrate create -ext sql -dir migrations <migration name>```
